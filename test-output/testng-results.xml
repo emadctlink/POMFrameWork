@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18744" started-at="2021-05-29T17:59:32Z" finished-at="2021-05-29T17:59:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18744" started-at="2021-05-29T17:59:32Z" finished-at="2021-05-29T17:59:51Z">
+      <class name="testCases.TC001_LoginLogout">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testCases.TC001_LoginLogout@14bf9759]" name="setData" is-config="true" duration-ms="39" started-at="2021-05-29T17:59:32Z" finished-at="2021-05-29T17:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testCases.TC001_LoginLogout@14bf9759]" name="login" is-config="true" duration-ms="7269" started-at="2021-05-29T17:59:34Z" finished-at="2021-05-29T17:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="LoginLogout(java.lang.String, java.lang.String)[pri:0, instance:testCases.TC001_LoginLogout@14bf9759]" name="LoginLogout" duration-ms="1481" started-at="2021-05-29T17:59:41Z" data-provider="getData" finished-at="2021-05-29T17:59:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.TC001_LoginLogout@14bf9759]" name="closeBrowser" is-config="true" duration-ms="986" started-at="2021-05-29T17:59:43Z" finished-at="2021-05-29T17:59:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testCases.TC001_LoginLogout@14bf9759]" name="login" is-config="true" duration-ms="4827" started-at="2021-05-29T17:59:44Z" finished-at="2021-05-29T17:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="LoginLogout(java.lang.String, java.lang.String)[pri:0, instance:testCases.TC001_LoginLogout@14bf9759]" name="LoginLogout" duration-ms="1346" started-at="2021-05-29T17:59:49Z" data-provider="getData" finished-at="2021-05-29T17:59:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.TC001_LoginLogout@14bf9759]" name="closeBrowser" is-config="true" duration-ms="1074" started-at="2021-05-29T17:59:50Z" finished-at="2021-05-29T17:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TC001_LoginLogout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
